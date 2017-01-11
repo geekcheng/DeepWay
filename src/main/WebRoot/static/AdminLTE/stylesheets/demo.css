@@ -1,0 +1,148 @@
+#stats-chart1,#stats-chart2,#stats-chart3,#stats-chart7,#stats-chart8 {
+	height: 200px
+}
+
+.color-settings .color-title {
+	font-weight: bold;
+	padding-left: 10px
+}
+
+.box-nomargin {
+	margin-bottom: 20px
+}
+
+@media screen and (min-width:768px) {
+	.box-nomargin {
+		margin-bottom: 0
+	}
+}
+
+.wysihtml5-sandbox {
+	box-sizing: border-box
+}
+
+
+#printtable *{
+border-collapse:collapse;border-spacing:0;
+}
+
+
+/* ####### */
+/* $LOGIN  */
+/* ####### */
+/* line 80, ../sass/typica-login.scss */
+#login-wraper {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  display: block;
+  margin-top: 10px;
+  margin-left: -235px;
+  padding: 5px;
+  width: 420px;
+  background: white;
+  text-align: center;
+  opacity: .9
+}
+
+/* line 97, ../sass/typica-login.scss */
+.login-form legend {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+/* line 102, ../sass/typica-login.scss */
+.login-form .body {
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 106, ../sass/typica-login.scss */
+.login-form #footer {
+  margin-top: 10px;
+}
+/* line 108, ../sass/typica-login.scss */
+.login-form #footer .checkbox.inline {
+  display: inline;
+}
+/* line 110, ../sass/typica-login.scss */
+.login-form #footer .checkbox.inline input[type="checkbox"] {
+  float: none;
+  margin-top: -4px;
+}
+/* line 115, ../sass/typica-login.scss */
+.login-form #footer .btn {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-left: 15px;
+  padding: 7px 25px;
+  background-image: none;
+}
+
+
+#footer.white {
+  padding-top: 10px;
+  height: 100px;
+  background: white;
+  text-align: center;
+}
+
+/* footer */
+/* line 66, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#footer.navbar-fixed-bottom {
+  font-size: 16px;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+}
+@media (max-width: 980px) {
+body {
+    padding-top: 00px;
+  }
+  .navbar {
+    height: auto;
+    margin-bottom: 0;
+  }
+  .navbar .brand {
+    margin-top: 0;
+  }
+  .navbar .navbar-inner {
+    height: auto;
+  }
+
+  .navbar .nav > li > a:hover {
+    color: white;
+  }
+
+  #login-wraper {
+    position: relative;
+    top: 0;
+    margin-top: 25px;
+  }
+  
+  
+}
+@media (max-width: 495px) {
+  #login-wraper {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+  }
+
+}
+
+
+
+.error {
+    color: #b94a48;
+}

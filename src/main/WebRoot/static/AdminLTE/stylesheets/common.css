@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+body, body h1, body h2, body h3, body h4, body h5, body h6, .pricing-tables .pricing-table .header {
+	font-family: Arial, '微软雅黑';
+	color: #666;
+}
+/* header */
+.navbar .brand {
+	padding: 0 10px;
+}
+
+.navbar .brand .hidden-phone {
+	font-size: 16px;
+	line-height: 40px;
+}
+
+.contrast-fb header .navbar .navbar-inner .dark, .contrast-fb header .navbar .navbar-inner .dark:hover>a {
+	background: #3d579d;
+}
+
+/* nav */
+#main-nav-bg {
+	width: 200px;
+	position: absolute;
+	float: left;
+	border-right: 1px solid #dddddd;
+	background: #f4f4f4;
+	display: block;
+	height: 100%;
+	z-index: 0;
+}
+
+@media ( max-width : 768px) {
+	#main-nav-bg {
+		width: 45px;
+	}
+}
+
+#main-nav .navigation>.nav>li>a span {
+	font-weight: bold;
+}
+
+#main-nav .navigation>.nav>li>a [class^="icon-"] {
+	margin-right: 3px;
+}
+
+#main-nav .navigation>.nav>li>.nav>li>a {
+	padding-left: 20px;
+}
+
+#main-nav .navigation>.nav>li>a span {
+	color: #666;
+}
+
+.nav-stacked li a {
+	color: #666;
+}
+
+#main-nav .navigation>.nav>li .nav>li>a:hover {
+	color: #333;
+}
+
+/* page-header */
+.page-header h1,.page-header h1 a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #444;
+}
+
+/* table */
+.box .box-content {
+	border: 0 none;
+}
+.table thead tr th {
+	background-color: #d9edf7;
+}
+.table th, .table td {
+	vertical-align: middle;
+}
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
+
+#loadingdiv{
+	margin-top:200px;
+	vertical-align:middle;
+	text-align:center; 
+	z-index:990000;
+}
+
