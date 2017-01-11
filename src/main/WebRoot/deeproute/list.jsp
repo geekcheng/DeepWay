@@ -3,7 +3,7 @@
 <html>
 <%@ include file="../common/taglib.jsp" %>
 <%@ include file="../common/adminLTE-css.jsp" %>
-<body class="skin-blue   sidebar-mini">
+<body class="skin-purple   sidebar-mini">
     <div class="wrapper">
 	<%@ include file="../common/adminLTE-header.jsp" %>
 	<%@ include file="../common/adminLTE-sidebar.jsp" %>
@@ -47,7 +47,7 @@
                       <th>BACKPATH</th>
                       <th>PROCESSREF</th>
                       <th>ERRORPATH</th>
-                      <th>Status</th>
+                      <th>操作</th>
                     </tr>
                     <c:forEach items="${routes}" var="route">
                     <tr>
@@ -57,7 +57,7 @@
                       <td>${route.backpath }</td>
                       <td>${route.processRef }</td>
                       <td>${route.errorpath }</td>
-                      <td><span class="label"><a href='<c:url value="/route/suspendRoute/${route.routeid }"/>'  type="submit">${camelContext.getRouteStatus(route.getRouteid())}</a></span></td>
+                      <td><a href='<c:url value="/route/suspendRoute/${route.routeid }"/>'  >停止</a></td>
                     </tr>
                     </c:forEach>
                   </table>

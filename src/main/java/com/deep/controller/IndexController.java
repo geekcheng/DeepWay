@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+//@RestController
 @Controller
 public class IndexController {
 	private static final Logger logger = Logger.getLogger(IndexController.class);
@@ -17,7 +17,6 @@ public class IndexController {
 
 	@RequestMapping({ "/", "/list" })
 	public String index() {
-		logger.info("hello");
-		return "/index";// 路径需要注意
+		return "/record/";// 路径需要注意
 	}
 }
